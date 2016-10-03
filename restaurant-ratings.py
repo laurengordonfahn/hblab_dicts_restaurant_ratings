@@ -22,10 +22,10 @@ def restaurant_rating(filename):
         
         restaurant_rating_dict[restaurant_data_list[0]] = int(restaurant_data_list[1])
 
-    user_resturant = raw_input("Give us a resturant name.")
-    user_rating = int(raw_input("Give us a rating for that restruant."))
+    user_restaurant = raw_input("Give us a resturant name.\n")
+    user_rating = int(raw_input("Give us a rating for that restruant.\n"))
 
-    restaurant_rating_dict[user_restruant] = user_rating
+    restaurant_rating_dict[user_restaurant] = user_rating
 
     ordered_restruant = sorted(restaurant_rating_dict.items())
 
